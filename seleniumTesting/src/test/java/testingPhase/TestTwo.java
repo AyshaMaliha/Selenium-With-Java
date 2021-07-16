@@ -15,7 +15,7 @@ public class TestTwo {
 		Thread.sleep(2000);
 		// click Make Appointment button
 		driver.findElement(By.id("btn-make-appointment")).click();
-		Thread.sleep(2000);
+		/*Thread.sleep(2000);
 		//Fill up the username field
 		driver.findElement(By.id("txt-username")).sendKeys("John Doe");
 		Thread.sleep(3000);
@@ -25,7 +25,7 @@ public class TestTwo {
 		driver.findElement(By.id("btn-login")).click();
 		Thread.sleep(6000);
 		//quit the browser.
-		driver.quit();
+		//driver.quit();*/
 		
 		
 		

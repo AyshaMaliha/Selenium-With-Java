@@ -21,8 +21,8 @@ public class WebElement_Execution_Test {
 		//Customer name
 		//driver.findElement(By.id("Name")).sendKeys("Jenifer");
 		//Business Type
-		//Select drop=new Select(driver.findElement(By.id("CategoryId")));
-		//drop.selectByVisibleText("Gift Shop");
+		Select drop=new Select(driver.findElement(By.id("CategoryId")));
+		drop.selectByVisibleText("Gift Shop");
 		//Email
 		//driver.findElement(By.id("Email")).sendKeys("jennypureheart96@gmail.com");
 		//Password
@@ -48,7 +48,7 @@ public class WebElement_Execution_Test {
 				//driver.findElement(By.id("NotReceiveNewsLetter")).click();
 				
 				//Create account
-				//driver.findElement(By.cssSelector("button[type='submit'")).click();
+				driver.findElement(By.cssSelector("button[type='submit'")).click();
 				
 				//Navigate
 				driver.switchTo().newWindow(WindowType.TAB).get("https://www.nexchar.com/signin");
@@ -72,10 +72,10 @@ public class WebElement_Execution_Test {
 
 				//Account 2
 				//Email/User
-				driver.findElement(By.id("Email")).sendKeys("lizaclearwater96@gmail.com");
+				driver.findElement(By.id("Email")).sendKeys("xebexag565@eyeremind.com");
 				
 				//Password
-				driver.findElement(By.id("Password")).sendKeys("56789");
+				driver.findElement(By.id("Password")).sendKeys("23456");
 				
 				//Remember
 				driver.findElement(By.id("RememberMe")).click();

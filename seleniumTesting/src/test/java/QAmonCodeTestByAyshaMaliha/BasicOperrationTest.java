@@ -28,6 +28,8 @@ public class BasicOperrationTest {
 		driver.switchTo().newWindow(WindowType.TAB).get("https://www.chhoto.link/");
 		//Close the existing window
 		driver.close();
+		
+		Thread.sleep(3000);
 		//Close all window tab
 		driver.quit();
 		
